@@ -129,7 +129,7 @@ export default function Hero() {
             <motion.button 
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.98 }}
-              onClick={() => router.push("/register")}
+              onClick={() => router.push("/login")}
               className="px-8 py-4 rounded-full text-sm font-semibold bg-[#1D1D1F] text-white shadow-lg hover:shadow-xl hover:bg-neutral-800 transition-all duration-300 flex items-center justify-center gap-3 border border-neutral-800 border-gradient-glow cursor-pointer"
             >
               Mulai Belajar

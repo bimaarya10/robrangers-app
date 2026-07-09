@@ -128,7 +128,7 @@ export default function Navbar() {
             Masuk
           </button>
           <MagneticButton 
-            onClick={() => router.push("/register")}
+            onClick={() => router.push("/login")}
             className="px-5 py-2 rounded-full text-xs font-semibold bg-[#1D1D1F] text-white hover:bg-neutral-800 transition-colors shadow-sm border border-neutral-200 border-gradient-glow flex items-center gap-2 group cursor-pointer"
           >
             Mulai Belajar
@@ -189,7 +189,7 @@ export default function Navbar() {
               <button 
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  router.push("/register");
+                  router.push("/login");
                 }}
                 className="w-full py-3 rounded-xl bg-[#1D1D1F] text-white text-sm font-semibold hover:bg-neutral-800 transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >

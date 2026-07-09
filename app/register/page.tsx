@@ -14,7 +14,6 @@ export default function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
-  const [splashActive, setSplashActive] = useState(true);
 
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
@@ -32,10 +31,6 @@ export default function RegisterPage() {
       router.push("/dashboard");
     }, 1200);
   };
-
-  if (splashActive) {
-    return <WelcomeSplash onComplete={() => setSplashActive(false)} />;
-  }
 
   return (
     <div className="min-h-screen bg-white text-[#1D1D1F] flex flex-col md:flex-row select-none font-sans">

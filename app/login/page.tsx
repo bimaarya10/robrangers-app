@@ -8,12 +8,11 @@ import WelcomeSplash from "@/components/WelcomeSplash";
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("ghonnifaza@domain.com");
+  const [password, setPassword] = useState("password123");
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
-  const [splashActive, setSplashActive] = useState(true);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -31,10 +30,6 @@ export default function LoginPage() {
       router.push("/dashboard");
     }, 1200);
   };
-
-  if (splashActive) {
-    return <WelcomeSplash onComplete={() => setSplashActive(false)} />;
-  }
 
   return (
     <div className="min-h-screen bg-white text-[#1D1D1F] flex flex-col md:flex-row select-none font-sans">

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -9,8 +9,15 @@ import Stats from "@/components/Stats";
 import Levels from "@/components/Levels";
 import Modules from "@/components/Modules";
 import Roadmap from "@/components/Roadmap";
+import WelcomeSplash from "@/components/WelcomeSplash";
 
 export default function Home() {
+  const [splashActive, setSplashActive] = useState(true);
+
+  if (splashActive) {
+    return <WelcomeSplash onComplete={() => setSplashActive(false)} />;
+  }
+
   return (
     <div className="min-h-screen bg-white text-[#1D1D1F] flex flex-col font-sans select-none selection:bg-[#0066CC]/10">
       
