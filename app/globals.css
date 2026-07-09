@@ -114,3 +114,17 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.animate-shimmer-border {
+  background: linear-gradient(90deg, #FFCC00 0%, #FFF5CC 25%, #FFCC00 50%, #FFF5CC 75%, #FFCC00 100%);
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
+
