@@ -3,8 +3,10 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, ChevronRight, Terminal, Activity, Check, ArrowRight, Sparkles } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+  const router = useRouter();
   const [isScriptRunning, setIsScriptRunning] = useState(false);
   const [scriptSuccess, setScriptSuccess] = useState(false);
   const [consoleOutput, setConsoleOutput] = useState<string[]>([]);
@@ -127,8 +129,8 @@ export default function Hero() {
             <motion.button 
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.98 }}
-              onClick={() => document.getElementById("levels")?.scrollIntoView({ behavior: "smooth" })}
-              className="px-8 py-4 rounded-full text-sm font-semibold bg-[#1D1D1F] text-white shadow-lg hover:shadow-xl hover:bg-neutral-800 transition-all duration-300 flex items-center justify-center gap-3 border border-neutral-800 border-gradient-glow"
+              onClick={() => router.push("/register")}
+              className="px-8 py-4 rounded-full text-sm font-semibold bg-[#1D1D1F] text-white shadow-lg hover:shadow-xl hover:bg-neutral-800 transition-all duration-300 flex items-center justify-center gap-3 border border-neutral-800 border-gradient-glow cursor-pointer"
             >
               Mulai Belajar
               <ArrowRight className="w-4 h-4" />

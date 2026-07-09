@@ -3,9 +3,18 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence, useMotionValue, useSpring } from "framer-motion";
 import { ArrowRight, Menu, X } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 // Magnetic Button Wrapper for the CTA
-export const MagneticButton = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => {
+export const MagneticButton = ({ 
+  children, 
+  className = "", 
+  onClick 
+}: { 
+  children: React.ReactNode; 
+  className?: string; 
+  onClick?: () => void; 
+}) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   
@@ -31,6 +40,7 @@ export const MagneticButton = ({ children, className = "" }: { children: React.R
     <motion.button
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      onClick={onClick}
       style={{ x: springX, y: springY }}
       className={`relative z-10 transition-shadow duration-300 ${className}`}
     >
@@ -40,6 +50,7 @@ export const MagneticButton = ({ children, className = "" }: { children: React.R
 };
 
 export default function Navbar() {
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("home");
   const [isScrolled, setIsScrolled] = useState(false);
@@ -110,10 +121,16 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-6">
-          <button className="text-sm font-medium text-[#86868B] hover:text-[#1D1D1F] transition-colors">
+          <button 
+            onClick={() => router.push("/login")}
+            className="text-sm font-medium text-[#86868B] hover:text-[#1D1D1F] transition-colors cursor-pointer"
+          >
             Masuk
           </button>
-          <MagneticButton className="px-5 py-2 rounded-full text-xs font-semibold bg-[#1D1D1F] text-white hover:bg-neutral-800 transition-colors shadow-sm border border-neutral-200 border-gradient-glow flex items-center gap-2 group">
+          <MagneticButton 
+            onClick={() => router.push("/register")}
+            className="px-5 py-2 rounded-full text-xs font-semibold bg-[#1D1D1F] text-white hover:bg-neutral-800 transition-colors shadow-sm border border-neutral-200 border-gradient-glow flex items-center gap-2 group cursor-pointer"
+          >
             Mulai Belajar
             <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" />
           </MagneticButton>
@@ -160,15 +177,21 @@ export default function Navbar() {
             </div>
             <div className="h-[1px] bg-neutral-100" />
             <div className="flex flex-col gap-3">
-              <button className="w-full py-3 rounded-xl border border-neutral-200 text-sm font-semibold text-[#86868B] hover:bg-neutral-50 transition-colors">
+              <button 
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  router.push("/login");
+                }}
+                className="w-full py-3 rounded-xl border border-neutral-200 text-sm font-semibold text-[#86868B] hover:bg-neutral-50 transition-colors cursor-pointer"
+              >
                 Masuk
               </button>
               <button 
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  document.querySelector("#levels")?.scrollIntoView({ behavior: "smooth" });
+                  router.push("/register");
                 }}
-                className="w-full py-3 rounded-xl bg-[#1D1D1F] text-white text-sm font-semibold hover:bg-neutral-800 transition-colors flex items-center justify-center gap-2"
+                className="w-full py-3 rounded-xl bg-[#1D1D1F] text-white text-sm font-semibold hover:bg-neutral-800 transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >
                 Mulai Belajar
                 <ArrowRight className="w-4 h-4" />
