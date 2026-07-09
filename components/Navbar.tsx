@@ -52,7 +52,7 @@ export const MagneticButton = ({
 export default function Navbar() {
   const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState("home");
+  const [activeTab, setActiveTab] = useState("hero");
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -68,10 +68,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { id: "home", label: "Home", href: "#hero" },
+    { id: "hero", label: "Beranda", href: "#hero" },
+    { id: "levels", label: "Level Belajar", href: "#levels" },
     { id: "kurikulum", label: "Kurikulum", href: "#kurikulum" },
-    { id: "fitur", label: "Fitur", href: "#fitur" },
-    { id: "levels", label: "Mentor AI", href: "#levels" }
+    { id: "roadmap", label: "Roadmap", href: "#roadmap" }
   ];
 
   return (
