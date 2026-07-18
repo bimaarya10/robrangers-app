@@ -1,0 +1,506 @@
+{
+  "users": [
+    {
+      "id": "79c2ffbb-2041-4754-953e-ef7b2766b90a",
+      "name": "Ranger Tester Updated",
+      "email": "ranger-1784288227851@test.com",
+      "passwordHash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+      "phone": "+62899999999",
+      "xp": 350,
+      "level": 1,
+      "githubConnected": true,
+      "githubUsername": "rangertester",
+      "completedQuizzes": [
+        1
+      ],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Mengunggah Proyek Showcase: My Custom Test Project",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Menyelesaikan Kuis: Dasar Logika Print",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:37:07.962Z"
+    },
+    {
+      "id": "46e655bd-2977-40ba-b608-42e18f77cd19",
+      "name": "Ranger Tester Updated",
+      "email": "ranger-1784288269796@test.com",
+      "passwordHash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+      "phone": "+62899999999",
+      "xp": 350,
+      "level": 1,
+      "githubConnected": true,
+      "githubUsername": "rangertester",
+      "completedQuizzes": [
+        1
+      ],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Mengunggah Proyek Showcase: My Custom Test Project",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Menyelesaikan Kuis: Dasar Logika Print",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:37:49.811Z"
+    },
+    {
+      "id": "98818167-dd54-488e-a0bd-bb5ef1e964a1",
+      "name": "Ranger Tester Updated",
+      "email": "ranger-1784288498515@test.com",
+      "passwordHash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+      "phone": "+62899999999",
+      "xp": 350,
+      "level": 1,
+      "githubConnected": true,
+      "githubUsername": "rangertester",
+      "completedQuizzes": [
+        1
+      ],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Mengunggah Proyek Showcase: My Custom Test Project",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Menyelesaikan Kuis: Dasar Logika Print",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:41:38.539Z"
+    },
+    {
+      "id": "a95753c5-0045-454b-9286-8ef0e3a5e8e5",
+      "name": "Ghonni",
+      "email": "ghonni@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "phone": "",
+      "xp": 250,
+      "level": 1,
+      "githubConnected": false,
+      "githubUsername": "",
+      "completedQuizzes": [
+        0
+      ],
+      "completedChallenges": [
+        0
+      ],
+      "learningHistory": [
+        {
+          "title": "Menyelesaikan Tantangan Koding: Pembahasan Luau (Roblox Lua)",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Menyelesaikan Kuis: Pembahasan Luau (Roblox Lua)",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:42:34.663Z"
+    },
+    {
+      "id": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "name": "Ranger Extended Tester",
+      "email": "ranger-1784289027463@test.com",
+      "passwordHash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+      "phone": "",
+      "xp": 250,
+      "level": 1,
+      "githubConnected": false,
+      "githubUsername": "",
+      "completedQuizzes": [],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Mengunggah Proyek Showcase: Test Dynamic Database Project",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:50:27.502Z"
+    },
+    {
+      "id": "d39d6ef9-3ff5-491a-bc39-6cc114a98d28",
+      "name": "Fadhil",
+      "email": "fadhil@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "phone": "",
+      "xp": 0,
+      "level": 1,
+      "githubConnected": false,
+      "githubUsername": "",
+      "completedQuizzes": [],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T11:53:31.805Z"
+    },
+    {
+      "id": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "name": "f",
+      "email": "f@c.c",
+      "passwordHash": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "phone": "",
+      "xp": 200,
+      "level": 1,
+      "githubConnected": false,
+      "githubUsername": "",
+      "completedQuizzes": [
+        1,
+        0
+      ],
+      "completedChallenges": [],
+      "learningHistory": [
+        {
+          "title": "Menyelesaikan Kuis: Pembahasan Luau (Roblox Lua)",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Menyelesaikan Kuis: Dasar Logika Print",
+          "date": "Baru saja",
+          "status": "Selesai"
+        },
+        {
+          "title": "Registrasi Akun Baru",
+          "date": "Baru saja",
+          "status": "Selesai"
+        }
+      ],
+      "createdAt": "2026-07-17T12:07:35.453Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": 6,
+      "title": "Test Dynamic Database Project",
+      "author": "Ranger Extended Tester",
+      "authorId": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "plays": "0 plays",
+      "score": 77,
+      "feedback": "Proyek berhasil diverifikasi. Terdeteksi 1 skrip terprogram. Logika dasar berfungsi, tapi disarankan menambahkan skrip debounce untuk menghindari lag ganda pada part sensor.",
+      "likes": 0,
+      "likedBy": [],
+      "filePath": "/data/uploads/project_6_1784289048380.rbxl",
+      "createdAt": "2026-07-17T11:50:48.380Z"
+    },
+    {
+      "id": 5,
+      "title": "My Custom Test Project",
+      "author": "Ranger Tester Updated",
+      "authorId": "98818167-dd54-488e-a0bd-bb5ef1e964a1",
+      "plays": "0 plays",
+      "score": 82,
+      "feedback": "Proyek terverifikasi dengan baik. Ditemukan 1 skrip terprogram, fitur penyimpanan data pemain (DataStore). Sinkronisasi logic berjalan lancar, namun masih ada ruang optimasi di sisi garbage collector dan penanganan event debounce agar game berjalan lebih lancar.",
+      "likes": 0,
+      "likedBy": [],
+      "createdAt": "2026-07-17T11:41:54.105Z"
+    },
+    {
+      "id": 4,
+      "title": "My Custom Test Project",
+      "author": "Ranger Tester Updated",
+      "authorId": "46e655bd-2977-40ba-b608-42e18f77cd19",
+      "plays": "0 plays",
+      "score": 82,
+      "feedback": "Proyek terverifikasi dengan baik. Ditemukan 1 skrip terprogram, fitur penyimpanan data pemain (DataStore). Sinkronisasi logic berjalan lancar, namun masih ada ruang optimasi di sisi garbage collector dan penanganan event debounce agar game berjalan lebih lancar.",
+      "likes": 1,
+      "likedBy": [
+        "98818167-dd54-488e-a0bd-bb5ef1e964a1"
+      ],
+      "createdAt": "2026-07-17T11:37:49.857Z"
+    },
+    {
+      "id": 3,
+      "title": "My Custom Test Project",
+      "author": "Ranger Tester Updated",
+      "authorId": "79c2ffbb-2041-4754-953e-ef7b2766b90a",
+      "plays": "0 plays",
+      "score": 82,
+      "feedback": "Proyek terverifikasi dengan baik. Ditemukan 1 skrip terprogram, fitur penyimpanan data pemain (DataStore). Sinkronisasi logic berjalan lancar, namun masih ada ruang optimasi di sisi garbage collector dan penanganan event debounce agar game berjalan lebih lancar.",
+      "likes": 1,
+      "likedBy": [
+        "46e655bd-2977-40ba-b608-42e18f77cd19"
+      ],
+      "createdAt": "2026-07-17T11:37:08.265Z"
+    },
+    {
+      "id": 1,
+      "title": "Neon City Deathrun",
+      "author": "Ranger Arya",
+      "authorId": "seed-user-1",
+      "plays": "1.2K plays",
+      "score": 92,
+      "feedback": "Sensor platform dinamis dan looping pergerakan part diatur dengan tingkat keamanan skrip server-side yang sangat baik. Nilai lebih pada estetika visual neon.",
+      "likes": 1,
+      "likedBy": [
+        "79c2ffbb-2041-4754-953e-ef7b2766b90a"
+      ],
+      "createdAt": "2026-07-17T11:37:07.955Z"
+    },
+    {
+      "id": 2,
+      "title": "Lava Jump Arena v2",
+      "author": "Ranger Beatrice",
+      "authorId": "seed-user-2",
+      "plays": "820 plays",
+      "score": 88,
+      "feedback": "Desain UI leaderboard sangat responsif. Sedikit optimasi diperlukan pada modul sensor sentuhan agar tidak memicu delay ganda pada datastore.",
+      "likes": 8,
+      "likedBy": [
+        "seed-user-1"
+      ],
+      "createdAt": "2026-07-17T11:37:07.955Z"
+    }
+  ],
+  "loginLogs": [
+    {
+      "id": "be7136c7-9fd8-4133-9bd4-de18c7c911e4",
+      "userId": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "email": "ranger-1784289027463@test.com",
+      "timestamp": "2026-07-17T11:50:27.504Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "6cfd4268-84a0-4492-b61d-002660fb1ea4",
+      "userId": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "email": "ranger-1784289027463@test.com",
+      "timestamp": "2026-07-17T11:50:27.524Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "70e62e23-4629-46fd-9372-2974cdc38baa",
+      "userId": "a95753c5-0045-454b-9286-8ef0e3a5e8e5",
+      "email": "Ghonni@gmail.com",
+      "timestamp": "2026-07-17T11:52:48.889Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "b518da17-c8bc-47ad-8b75-aba740775051",
+      "userId": "d39d6ef9-3ff5-491a-bc39-6cc114a98d28",
+      "email": "Fadhil@gmail.com",
+      "timestamp": "2026-07-17T11:53:31.807Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "65c7dd15-3ca4-4a7f-bc17-0b4df3eb5a4e",
+      "userId": "d39d6ef9-3ff5-491a-bc39-6cc114a98d28",
+      "email": "Fadhil@gmail.com",
+      "timestamp": "2026-07-17T11:55:13.970Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "afbe1625-81b4-4e79-93c8-e9b1a249cb3b",
+      "userId": "d39d6ef9-3ff5-491a-bc39-6cc114a98d28",
+      "email": "Fadhil@gmail.com",
+      "timestamp": "2026-07-17T11:55:39.962Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "4a14e608-66eb-4a0f-9bbd-59e5c5f59fe6",
+      "userId": null,
+      "email": "ghonnifaza@domain.com",
+      "timestamp": "2026-07-17T12:06:14.776Z",
+      "ip": "::1",
+      "status": "failed"
+    },
+    {
+      "id": "f6a170e7-8076-4212-b743-cccfa96f0b65",
+      "userId": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "email": "f@c.c",
+      "timestamp": "2026-07-17T12:07:35.456Z",
+      "ip": "::1",
+      "status": "success"
+    },
+    {
+      "id": "b2be0f28-cb14-4386-a5d3-1b66e79f82fa",
+      "userId": "a95753c5-0045-454b-9286-8ef0e3a5e8e5",
+      "email": "ghonni@gmail.com",
+      "timestamp": "2026-07-18T01:05:25.212Z",
+      "ip": "::1",
+      "status": "success"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "121e02d9-03c9-4cda-880e-e499be2720ac",
+      "userId": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "sender": "user",
+      "text": "Tolong jelaskan tentang RemoteEvent di Roblox",
+      "createdAt": "2026-07-17T11:50:27.614Z"
+    },
+    {
+      "id": "bd85c2e5-12d9-4d98-b393-fa2f676fdeb8",
+      "userId": "ccc1617b-411e-4656-a873-3f38bdddb13c",
+      "sender": "ai",
+      "text": "Halo Developer Roblox! Robby di sini, siap bantu kamu nge-*explore* dunia pemrograman Roblox Studio yang seru ini! ✨\n\nWah, `RemoteEvent`? Itu topik yang *super penting* banget kalau kamu mau bikin game yang interaktif dan dinamis di Roblox! Yuk, kita bedah tuntas!\n\n---\n\n### Apa Itu `RemoteEvent`?\n\nBayangkan begini: di Roblox, ada dua \"dunia\" utama yang bekerja secara bersamaan:\n\n1.  **Client (Klien):** Ini adalah komputer atau perangkat masing-masing pemain. Ia bertanggung jawab untuk menampilkan grafis, mengelola input pemain (klik, ketik, gerakan karakter), dan segala sesuatu yang \"terlihat\" dan \"terasa\" oleh pemain. Setiap pemain punya Client-nya sendiri.\n2.  **Server (Peladen):** Ini adalah komputer pusat yang dioperasikan oleh Roblox. Ia bertanggung jawab untuk mengelola seluruh logika game, menyimpan data pemain, mensinkronkan posisi dan aksi antar pemain, dan memastikan keamanan serta keadilan dalam game. Hanya ada satu Server untuk setiap *game instance*.\n\nNah, `RemoteEvent` adalah **jembatan komunikasi dua arah** antara Client dan Server. Ini adalah cara utama bagi Client dan Server untuk \"berbicara\" atau \"berkirim pesan\" satu sama lain.\n\n---\n\n### Kenapa Kita Butuh `RemoteEvent`?\n\nKenapa mereka tidak bisa langsung \"bicara\" saja? Karena ada beberapa alasan penting:\n\n*   **Keamanan:** Client tidak bisa dipercaya sepenuhnya. Pemain bisa saja mencoba memanipulasi data di komputer mereka untuk keuntungan pribadi (misalnya, memberi diri mereka 1000 koin gratis). Server harus menjadi satu-satunya yang memegang kendali atas data-data penting seperti skor, uang, inventaris, dll.\n*   **Autoritas:** Server adalah otoritas tertinggi. Jika suatu aksi memengaruhi semua pemain (misalnya, sebuah meteor jatuh), Server yang harus memicu dan menyinkronkan event tersebut.\n*   **Sinkronisasi:** Server memastikan semua Client melihat hal yang sama (atau setidaknya, hampir sama) pada waktu yang bersamaan.\n*   **Pembagian Tugas:** Client fokus pada visual dan input, Server fokus pada logika dan data. `RemoteEvent` membantu mereka berbagi informasi yang diperlukan.\n\n---\n\n### Bagaimana `RemoteEvent` Bekerja? (Analogi Radio)\n\nBayangkan `RemoteEvent` itu seperti sebuah **saluran radio khusus** yang hanya bisa digunakan oleh Client dan Server untuk mengirim dan menerima pesan.\n\n1.  **Client ingin bilang sesuatu ke Server:**\n    *   Client \"menekan tombol siar\" dan mengirim pesan melalui `RemoteEvent` ini. Ini disebut **`FireServer()`**.\n    *   Server \"mendengarkan\" saluran ini dan akan \"menerima\" pesan ketika Client mengirimkannya. Ini disebut **`OnServerEvent`**.\n\n2.  **Server ingin bilang sesuatu ke Client (atau Client tertentu):**\n    *   Server \"menekan tombol siar\" dan mengirim pesan melalui `RemoteEvent` ini, spesifik ke satu atau beberapa Client. Ini disebut **`FireClient()`**.\n    *   Client \"mendengarkan\" saluran ini dan akan \"menerima\" pesan ketika Server mengirimkannya kepada mereka. Ini disebut **`OnClientEvent`**.\n\n---\n\n### Properti dan Metode Utama `RemoteEvent`:\n\n`RemoteEvent` sendiri adalah sebuah objek yang biasanya diletakkan di `ReplicatedStorage` (karena ia perlu diakses oleh Client dan Server). Setelah kamu punya objek `RemoteEvent` tersebut, kamu bisa pakai metode-metode ini:\n\n#### Dari Sisi Client (LocalScript):\n\n*   **`RemoteEvent:FireServer(arg1, arg2, ...)`**\n    *   Digunakan oleh **Client** untuk **mengirim pesan ke Server**.\n    *   Kamu bisa mengirim nol atau lebih argumen (data) bersama pesan ini.\n    *   **Contoh:** `game.ReplicatedStorage.MyRemoteEvent:FireServer(\"klik tombol\", 100)`\n\n*   **`RemoteEvent.OnClientEvent:Connect(function(arg1, arg2, ...))`**\n    *   Digunakan oleh **Client** untuk **mendengarkan pesan dari Server**.\n    *   Fungsi yang terhubung akan dijalankan setiap kali Server memanggil `FireClient()` untuk Client ini.\n    *   Argumen yang diterima di sini adalah argumen yang dikirim oleh Server melalui `FireClient()`.\n    *   **Contoh:** `game.ReplicatedStorage.MyRemoteEvent.OnClientEvent:Connect(function(pesan) print(\"Server bilang:\", pesan) end)`\n\n#### Dari Sisi Server (Script):\n\n*   **`RemoteEvent.OnServerEvent:Connect(function(player, arg1, arg2, ...))`**\n    *   Digunakan oleh **Server** untuk **mendengarkan pesan dari Client**.\n    *   Fungsi yang terhubung akan dijalankan setiap kali *Client mana pun* memanggil `FireServer()`.\n    *   **Penting:** Argumen *pertama* yang diterima oleh fungsi ini **selalu** objek `Player` yang mengirim pesan. Argumen selanjutnya adalah data yang dikirim Client melalui `FireServer()`.\n    *   **Contoh:** `game.ReplicatedStorage.MyRemoteEvent.OnServerEvent:Connect(function(player, aksi, nilai) print(player.Name, \"melakukan aksi:\", aksi, \"dengan nilai:\", nilai) end)`\n\n*   **`RemoteEvent:FireClient(player, arg1, arg2, ...)`**\n    *   Digunakan oleh **Server** untuk **mengirim pesan ke Client tertentu**.\n    *   Argumen *pertama* harus selalu objek `Player` yang ingin kamu kirimi pesan.\n    *   Argumen selanjutnya adalah data yang ingin kamu kirim ke Client tersebut.\n    *   **Contoh:** `game.ReplicatedStorage.MyRemoteEvent:FireClient(targetPlayer, \"update UI\", 500)`\n\n*   **`RemoteEvent:FireAllClients(arg1, arg2, ...)`**\n    *   Sama seperti `FireClient()`, tapi **mengirim pesan ke semua Client** yang sedang terhubung ke game.\n    *   **Contoh:** `game.ReplicatedStorage.MyRemoteEvent:FireAllClients(\"game selesai\")`\n\n---\n\n### Contoh Sederhana: Klik Tombol untuk Menambah Skor\n\nMari kita buat contoh di mana pemain mengklik sebuah tombol di UI mereka, dan server akan menambahkan skor mereka, lalu memberitahu kembali Client untuk memperbarui tampilan skor.\n\n**1. Setup di Roblox Studio:**\n\n*   Buat sebuah objek `RemoteEvent` di `ReplicatedStorage`. Ubah namanya menjadi `ScoreEvent`.\n*   Buat `ScreenGui` di `StarterGui`.\n*   Di dalam `ScreenGui`, buat `TextButton`. Ubah teksnya menjadi \"Tambah Skor\".\n*   Di dalam `ScreenGui`, buat `TextLabel`. Ubah teksnya menjadi \"Skor: 0\" dan atur posisinya agar terlihat.\n\n**2. Script Server (Dalam `ServerScriptService`):**\n\nNama: `ServerScoreHandler`\n\n```lua\n-- ServerScriptService/ServerScoreHandler.lua\n\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal ScoreEvent = ReplicatedStorage:WaitForChild(\"ScoreEvent\") -- Pastikan RemoteEvent sudah ada\n\n-- Tabel untuk menyimpan skor setiap pemain\nlocal playerScores = {}\n\n-- Fungsi yang akan dipanggil ketika Client meminta penambahan skor\nScoreEvent.OnServerEvent:Connect(function(player)\n    -- **INI PENTING!**\n    -- Server selalu mendapatkan objek 'player' sebagai argumen pertama\n    -- secara otomatis ketika klien memanggil FireServer.\n\n    -- Inisialisasi skor jika pemain baru\n    if not playerScores[player.UserId] then\n        playerScores[player.UserId] = 0\n    end\n\n    -- Tambah skor pemain\n    playerScores[player.UserId] = playerScores[player.UserId] + 10\n    print(player.Name .. \" menambahkan skor. Total skor: \" .. playerScores[player.UserId])\n\n    -- Beri tahu Client yang bersangkutan untuk memperbarui UI skor mereka\n    -- Kita mengirim objek 'player' sebagai argumen pertama untuk FireClient\n    ScoreEvent:FireClient(player, playerScores[player.UserId])\nend)\n\nprint(\"ServerScoreHandler: Siap mendengarkan permintaan skor.\")\n```\n\n**3. Script Client (Dalam `TextButton` kamu, ini adalah `LocalScript`):**\n\nNama: `ButtonClickHandler`\n\n```lua\n-- StarterGui/ScreenGui/TextButton/ButtonClickHandler.lua\n\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal ScoreEvent = ReplicatedStorage:WaitForChild(\"ScoreEvent\")\n\nlocal button = script.Parent\nlocal scoreTextLabel = button.Parent:WaitForChild(\"TextLabel\") -- Asumsi TextLabel ada di ScreenGui yang sama\n\n-- Ketika tombol diklik oleh Client ini\nbutton.MouseButton1Click:Connect(function()\n    print(\"Client: Tombol diklik, mengirim permintaan ke server...\")\n    -- Kirim pesan ke server bahwa pemain ini ingin menambah skor\n    -- Kita tidak perlu mengirim objek 'player' di sini, server akan tahu siapa yang mengirim.\n    ScoreEvent:FireServer()\nend)\n\n-- Ketika Server mengirim pesan untuk memperbarui skor di Client ini\nScoreEvent.OnClientEvent:Connect(function(newScore)\n    print(\"Client: Menerima update skor dari server:\", newScore)\n    -- Perbarui teks di TextLabel\n    scoreTextLabel.Text = \"Skor: \" .. newScore\nend)\n\nprint(\"ButtonClickHandler: Siap mengolah klik tombol dan update UI.\")\n```\n\n**Penjelasan Alur:**\n\n1.  Pemain (Client) mengklik `TextButton`.\n2.  `LocalScript` di dalam tombol memanggil `ScoreEvent:FireServer()`, mengirim pesan ke Server.\n3.  `Script` di `ServerScriptService` menerima pesan ini melalui `ScoreEvent.OnServerEvent:Connect()`. Secara otomatis, Server tahu `player` mana yang mengirim pesan.\n4.  Server memvalidasi (di sini hanya menambahkan) skor pemain di tabel `playerScores`.\n5.  Server kemudian memanggil `ScoreEvent:FireClient(player, playerScores[player.UserId])` untuk mengirim skor yang diperbarui *kembali ke Client yang sama* yang meminta penambahan skor.\n6.  `LocalScript` di dalam tombol (yang juga mendengarkan `ScoreEvent.OnClientEvent`) menerima skor yang diperbarui dari Server.\n7.  `LocalScript` memperbarui `TextLabel` dengan skor baru.\n\n---\n\n### Tips Pembelajaran Praktis & Penting!\n\n*   **Selalu Pakai `ReplicatedStorage`:** Ini adalah tempat terbaik untuk `RemoteEvent` dan `RemoteFunction` karena bisa diakses oleh Client dan Server.\n*   **Keamanan itu Nomor SATU!** JANGAN PERNAH PERCAYA input dari Client. Server HARUS selalu memvalidasi semua data yang dikirimkan Client. Misalnya, jika Client bilang \"beri aku 1000 koin\", Server harus mengecek apakah Client *memang punya hak* untuk mendapatkan 1000 koin tersebut.\n*   **Pikirkan Alur Komunikasi:** Sebelum menulis kode, gambar di kepalamu atau di kertas: \"Client mau bilang apa ke Server? Server mau merespons apa? Siapa yang butuh tahu?\"\n*   **`RemoteFunction` vs. `RemoteEvent`:**\n    *   **`RemoteEvent`:** Untuk komunikasi \"kirim dan lupakan\" (Client tidak perlu menunggu balasan langsung dari Server, atau sebaliknya).\n    *   **`RemoteFunction`:** Untuk komunikasi di mana Client *membutuhkan balasan langsung* dari Server (misalnya, Client bertanya \"berapa banyak uangku?\" dan Server harus \"mengembalikan\" jumlah uangnya). Kita bisa bahas ini di lain waktu kalau kamu mau!\n*   **Debug dengan `print()`:** Gunakan `print()` di kedua sisi (Client dan Server) untuk melihat pesan apa yang terkirim dan diterima, serta kapan. Ini sangat membantu saat *debugging*.\n    *   Untuk melihat `print()` dari `LocalScript`, cek jendela **Output** di Roblox Studio.\n    *   Untuk melihat `print()` dari `Script`, cek jendela **Output** di Roblox Studio saat kamu *test play*.\n\n---\n\nGimana? Cukup jelas kan penjelasan tentang `RemoteEvent` ini? Ini adalah salah satu fondasi utama dalam membuat game multiplayer yang keren di Roblox. Terus eksplorasi ya, kalau ada pertanyaan lagi, jangan sungkan tanya Robby! Semangat codingnya! 🔥",
+      "createdAt": "2026-07-17T11:50:48.339Z"
+    },
+    {
+      "id": "08ba48c2-2469-4069-b9e9-a117da7dab24",
+      "userId": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "sender": "user",
+      "text": "hgjhg",
+      "createdAt": "2026-07-17T12:08:35.407Z"
+    },
+    {
+      "id": "db3bd1eb-203d-4db3-8ef1-b0577f24dfce",
+      "userId": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "sender": "ai",
+      "text": "Halo! Sepertinya ada sedikit kendala pengetikan di sini, ya? 😊\n\nTidak apa-apa! Kalau kamu punya pertanyaan seputar Roblox Studio, bahasa pemrograman Lua, atau mau belajar bikin game keren, jangan ragu untuk tanyakan padaku. Aku Robby, siap membantu kamu!\n\nApa ada yang bisa aku bantu hari ini? Mungkin tentang:\n*   Dasar-dasar Lua?\n*   Cara membuat bagian (parts) di game?\n*   Mengontrol objek dengan script?\n*   Atau hal lain yang berhubungan dengan pengembangan game di Roblox?\n\nAyo, semangat! Aku tunggu pertanyaanmu! ✨",
+      "createdAt": "2026-07-17T12:08:38.224Z"
+    },
+    {
+      "id": "d4018a9b-608a-47c2-aa1e-aac176d967f8",
+      "userId": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "sender": "user",
+      "text": "Test",
+      "createdAt": "2026-07-17T12:12:07.467Z"
+    },
+    {
+      "id": "e70750a8-c9ff-4aaa-a8b2-bb7f4c66a7e8",
+      "userId": "47980ebd-3d01-4ffb-9177-8e94ad886bfd",
+      "sender": "ai",
+      "text": "Halo! 👋 Wah, ada yang mau \"test\" nih! Siap sedia, Robby di sini!\n\nSelamat datang di dunia koding Roblox Studio yang seru dan penuh petualangan! ✨ Aku Robby, asisten mentor virtual AI kamu yang siap banget bantu kamu belajar Lua dan ngulik Roblox Studio.\n\nAku di sini buat bantu kamu:\n*   **Memahami konsep-konsep Lua** dengan cara yang gampang dicerna.\n*   **Menjelajahi fitur-fitur Roblox Studio** biar game-mu makin keren.\n*   **Memberikan contoh script** yang bisa langsung kamu coba dan modifikasi.\n*   **Menjawab pertanyaanmu** seputar error, logika game, atau apa pun yang bikin kamu penasaran.\n\nJangan sungkan, ya! Mau tanya dari yang paling dasar banget sampai yang rumit, aku siap bantu. Gak ada pertanyaan yang \"bodoh\" kok, semua adalah langkah buat jadi developer yang jago!\n\n**Tips Pembelajaran Praktis dari Robby:**\nSetiap kali kamu belajar hal baru, langsung coba di Roblox Studio! Praktek itu kunci banget. Jangan cuma baca atau dengerin, tapi langsung ketik script-nya, lihat hasilnya, dan coba ubah-ubah sendiri. Itu cara paling ampuh buat ilmu nempel!\n\nNah, kalau gitu, apa nih yang pengen kamu bahas atau tanya pertama kali? Aku udah gak sabar pengen bantu! Yuk, kita mulai petualangan kodingmu! 🚀",
+      "createdAt": "2026-07-17T12:12:11.527Z"
+    }
+  ],
+  "moduleVideos": [
+    {
+      "id": 0,
+      "moduleTitle": "00. Pembahasan Lua(u) Roblox",
+      "videoUrl": "https://www.youtube.com/embed/CAUSzPsnOE0",
+      "duration": "2:45"
+    },
+    {
+      "id": 1,
+      "moduleTitle": "01. Printing, Dan Jenis Data",
+      "videoUrl": "https://www.youtube.com/embed/1ke9bR5t2to",
+      "duration": "7:56"
+    },
+    {
+      "id": 2,
+      "moduleTitle": "02. Local Variable, Dan Global Variable",
+      "videoUrl": "https://www.youtube.com/embed/2NKrG4xCNeM",
+      "duration": "6:20"
+    },
+    {
+      "id": 3,
+      "moduleTitle": "03. If else Statements",
+      "videoUrl": "https://www.youtube.com/embed/mflMZJxiR58",
+      "duration": "7:26"
+    },
+    {
+      "id": 4,
+      "moduleTitle": "04. Basic Functions, Dan Passing Data",
+      "videoUrl": "https://www.youtube.com/embed/CtbVUVn6BlU",
+      "duration": "9:15"
+    },
+    {
+      "id": 5,
+      "moduleTitle": "05. Basic Array, Dan Dictionary",
+      "videoUrl": "https://www.youtube.com/embed/9HRoaXNu13o",
+      "duration": "12:24"
+    },
+    {
+      "id": 6,
+      "moduleTitle": "06. While Loop",
+      "videoUrl": "https://www.youtube.com/embed/xrHRggNhJNs",
+      "duration": "8:33"
+    },
+    {
+      "id": 7,
+      "moduleTitle": "07. For Loop",
+      "videoUrl": "https://www.youtube.com/embed/vTJF-Ody2Kk",
+      "duration": "14:14"
+    },
+    {
+      "id": 8,
+      "moduleTitle": "08. Instance Indexing",
+      "videoUrl": "https://www.youtube.com/embed/jXfd-qiSISc",
+      "duration": "17:31"
+    },
+    {
+      "id": 9,
+      "moduleTitle": "09. Modifikasi Instance",
+      "videoUrl": "https://www.youtube.com/embed/c5TW2Ty4nUY",
+      "duration": "8:45"
+    },
+    {
+      "id": 10,
+      "moduleTitle": "10. Tipe Data Primitif",
+      "videoUrl": "https://www.youtube.com/embed/vW12Z4e8TYM",
+      "duration": "10:17"
+    },
+    {
+      "id": 11,
+      "moduleTitle": "11. Perkenalan Instance Lebih Dalam",
+      "videoUrl": "https://www.youtube.com/embed/O9Wq4YKcmhE",
+      "duration": "8:57"
+    },
+    {
+      "id": 12,
+      "moduleTitle": "12. DataStoreService + Secret Module",
+      "videoUrl": "https://www.youtube.com/embed/7mhHPotPfhU",
+      "duration": "21:54"
+    },
+    {
+      "id": 13,
+      "moduleTitle": "13. game:GetService()",
+      "videoUrl": "https://www.youtube.com/embed/PzXqd8hf1hM",
+      "duration": "4:05"
+    }
+  ]
+}
