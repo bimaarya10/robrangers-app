@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1D1D1F;
+  --off-white: #F5F5F7;
+  --cyber-blue: #0066CC;
+  --cyber-blue-hover: #0071E3;
+  --canary-yellow: #FFCC00;
+  --obsidian: #1D1D1F;
+  --charcoal: #86868B;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-off-white: var(--off-white);
+  --color-cyber-blue: var(--cyber-blue);
+  --color-cyber-blue-hover: var(--cyber-blue-hover);
+  --color-canary-yellow: var(--canary-yellow);
+  --color-obsidian: var(--obsidian);
+  --color-charcoal: var(--charcoal);
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), Courier, monospace;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom styling for Apple 3D Grid Perspective */
+@keyframes grid-flow {
+  0% {
+    background-position: center 0px;
+  }
+  100% {
+    background-position: center 40px;
+  }
+}
+
+.perspective-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 102, 204, 0.08) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 102, 204, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center top;
+  transform: perspective(600px) rotateX(60deg) translateY(-80px) translateZ(0);
+  transform-origin: top center;
+  mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8) 40%, black 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8) 40%, black 100%);
+  pointer-events: none;
+  animation: grid-flow 20s linear infinite;
+}
+
+/* Soft grid lines for the background */
+.subtle-dot-grid {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Magnetic button border glow effect */
+.border-gradient-glow {
+  position: relative;
+}
+.border-gradient-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(to right, var(--cyber-blue), var(--canary-yellow));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  opacity: 0.4;
+}
+.border-gradient-glow:hover::before {
+  opacity: 1;
+}
+
+/* Glassmorphic elements */
+.glassmorphic-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glassmorphic-dark {
+  background: rgba(20, 20, 25, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.animate-shimmer-border {
+  background: linear-gradient(90deg, #FFCC00 0%, #FFF5CC 25%, #FFCC00 50%, #FFF5CC 75%, #FFCC00 100%);
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
+
